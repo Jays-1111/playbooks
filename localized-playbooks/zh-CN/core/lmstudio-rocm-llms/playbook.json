@@ -1,0 +1,38 @@
+{
+  "id": "lmstudio-rocm-llms",
+  "title": "使用 LM Studio 运行和服务 LLM",
+  "description": "设置 LM Studio 和 LM Studio Server，在 Windows 上使用 Ryzen AI Max+ 本地运行并服务大型语言模型。",
+  "time": 30,
+  "supported_platforms": {
+    "halo": [
+      "windows"
+    ]
+  },
+  "tested_platforms": {
+    "halo": [
+      "windows"
+    ]
+  },
+  "required_platforms": {
+    "halo": [
+      "windows"
+    ]
+  },
+  "published_platforms": {
+    "halo": [
+      "windows"
+    ]
+  },
+  "difficulty": "beginner",
+  "isNew": false,
+  "isFeatured": false,
+  "developed": true,
+  "published": true,
+  "tags": [
+    "lm-studio",
+    "vulkan",
+    "llm",
+    "inference",
+    "zh-cn"
+  ]
+}

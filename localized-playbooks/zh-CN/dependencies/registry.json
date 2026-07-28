@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../playbooks/dependencies/registry.schema.json",
+  "description": "Simplified Chinese localized dependencies for Windows Ryzen AI Max+/Halo playbooks",
+  "dependencies": {
+    "memory-config": {
+      "name": "内存配置",
+      "description": "为运行大型模型配置 GPU 内存分配",
+      "category": "framework",
+      "platforms": ["windows"],
+      "file": "memoryconfig.md",
+      "preinstalled": {
+        "windows": []
+      }
+    },
+    "lmstudio": {
+      "name": "LM Studio",
+      "description": "用于运行本地 LLM 的桌面应用",
+      "category": "app",
+      "platforms": ["windows"],
+      "file": "lmstudio.md",
+      "preinstalled": {
+        "windows": []
+      }
+    },
+    "lemonade": {
+      "name": "Lemonade",
+      "description": "提供 OpenAI 兼容 API 的本地 LLM 服务平台",
+      "category": "framework",
+      "platforms": ["windows"],
+      "file": "lemonade.md",
+      "preinstalled": {
+        "windows": []
+      }
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "version": "22.22.1",
+      "description": "用于运行 n8n 的 JavaScript 运行时",
+      "category": "runtime",
+      "platforms": ["windows"],
+      "file": "nodejs.md",
+      "preinstalled": {
+        "windows": []
+      }
+    },
+    "lmstudio-models-qwen3-35b-a3b": {
+      "name": "Qwen3.5-35B-A3B 模型",
+      "description": "用于 LM Studio 的 Qwen3.5-35B-A3B 模型",
+      "category": "model",
+      "platforms": ["windows"],
+      "file": "lmstudio_models_qwen3_35b_a3b.md",
+      "preinstalled": {
+        "windows": []
+      }
+    }
+  }
+}
